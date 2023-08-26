@@ -1,0 +1,93 @@
+
+h1 {
+  color: #1A64D6;
+  text-align: center;
+  display: block;
+  padding: 10px;
+}
+
+h2 {
+  margin: 0;
+  color: black;
+}
+
+.temperature {
+  margin: 0;
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 200px;
+  background: #FFFBE6;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+h3, h4, h5 {
+  text-align: center;
+  padding: 50px;
+  margin: 0;
+  color: black;
+}
+
+p {
+  text-align: center;
+  width: 200px;
+  margin: 5px auto 0 auto;
+  padding: 15px 20px;
+  background: #4285F4;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  font-size: 14px;
+}
+
+p:hover {
+  background: white;
+  color: #4285F4;
+}
+
+.container:hover {
+  background: #FFFBE6;
+  color: azure;
+}
+
+.degree {
+  text-align: center;
+  color: black;
+}
+
+.container-tomorrow,
+.container-saturday,
+.container-sunday {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 200px;
+  background: #FFFBE6;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  font-size: 1.2em;
+  font-style: normal;
+}
+
+.container-tomorrow span.temperature,
+.container-saturday span.temperature {
+  display: block;
+  text-align: center;
+  color: black;
+}
+
+h5 {
+  font-style: initial;
+}
